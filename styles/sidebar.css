@@ -1,0 +1,41 @@
+.sidebar-container {
+    padding-left: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 59px;
+    width:150 px;
+    }
+.side1,.side2,.side3 {
+   
+    border-bottom: 1px solid rgb(226, 221, 221);
+    width: 150px;
+}
+.sidebar-p{
+    display: flex;
+    padding: 10px 8px;
+    gap: 17px;
+    cursor: pointer;
+    
+}
+.sidebar-p:hover{
+    background-color: rgba(223, 238, 250, 0.666);
+
+}
+
+.sidebar-container:hover{
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 8px; /* Width for vertical scrollbar */
+    height: 8px; /* Height for horizontal scrollbar */
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* You can customize the background */
+}
+
+/* Targets the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Customize the color */
+    border-radius: 10px; /* Round the corners of the scrollbar thumb */
+}

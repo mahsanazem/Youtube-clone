@@ -1,0 +1,115 @@
+
+.thumbnail{
+    width: 300px;
+    display: block;
+}
+
+
+
+.videotitle{
+    width: 300px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 1px;
+}
+
+.description, .description2{
+    display: inline-block;
+    font-size: 12px;
+    line-height:0px;
+    color: rgb(96, 96, 96);
+    
+}
+
+.description{
+    margin-bottom: 1px;
+
+}
+
+.description2{
+    margin-top: 0px;
+
+}
+
+.diveasli{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    column-gap: 28px;
+    margin-left: 225px;
+
+
+}
+
+.pic{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.videoinfo{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    
+}
+
+.channelpic{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.neveshteha2{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+
+}
+
+.neveshte1,.neveshte2{ 
+    display: inline-block;
+    font-size: 12px;
+    line-height: 0px;
+    color: rgb(96, 96, 96);
+    vertical-align: top;
+}
+
+  
+.neveshte2{
+    margin-top: 5px;
+    
+}
+
+.icon1{
+    width:40px;
+    border-radius: 50%;
+}
+
+.des1{
+    gap: 5px;
+    width: 80%;
+    vertical-align: top;
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.khojdiv{
+    display: flex;
+}
+@media only screen and  (max-width: 1266px) {
+    .diveasli{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media only screen and (min-width:1600px ) {
+    .diveasli{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    
+}
