@@ -53,7 +53,7 @@
 
 }
 .youtube-logo{
-    height: 15px !important;
+    height: 20px !important;
 
 }
 .search-btn{
@@ -72,6 +72,9 @@
     border-radius: 50%;
     border: none;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .axeprofile{
     width: 34px;
@@ -79,6 +82,9 @@
     border-radius: 50%;
     border: none;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .dokmeyezangole{
     width: 34px;
@@ -86,6 +92,9 @@
     border-radius: 50%;
     border: none;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .dokmeyevideo{
@@ -94,4 +103,7 @@
     border-radius: 50%;
     border: none;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
